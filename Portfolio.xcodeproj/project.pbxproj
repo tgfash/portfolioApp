@@ -7,13 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CEBDFDE42CEDBBF5001F71A3 /* PortfolioApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBDFDE32CEDBBF5001F71A3 /* PortfolioApp.swift */; };
-		CEBDFDE62CEDBBF5001F71A3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBDFDE52CEDBBF5001F71A3 /* ContentView.swift */; };
+		CE3BCBDF2CEDBDD7009C0166 /* MyAppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3BCBDE2CEDBDD7009C0166 /* MyAppDelegate.swift */; };
 		CEBDFDE82CEDBBF7001F71A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEBDFDE72CEDBBF7001F71A3 /* Assets.xcassets */; };
-		CEBDFDEB2CEDBBF7001F71A3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEBDFDEA2CEDBBF7001F71A3 /* Preview Assets.xcassets */; };
 		CEBDFDF52CEDBBF7001F71A3 /* PortfolioTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBDFDF42CEDBBF7001F71A3 /* PortfolioTests.swift */; };
 		CEBDFDFF2CEDBBF7001F71A3 /* PortfolioUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBDFDFE2CEDBBF7001F71A3 /* PortfolioUITests.swift */; };
 		CEBDFE012CEDBBF7001F71A3 /* PortfolioUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBDFE002CEDBBF7001F71A3 /* PortfolioUITestsLaunchTests.swift */; };
+		CEE66E952CEEDD6400792FA3 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE66E942CEEDD6400792FA3 /* HomeView.swift */; };
+		CEE66E972CEEDE2000792FA3 /* RedirectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE66E962CEEDE2000792FA3 /* RedirectApp.swift */; };
+		CEE66E992CEEDE9B00792FA3 /* AppRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE66E982CEEDE9B00792FA3 /* AppRouter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,16 +35,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CE3BCBDE2CEDBDD7009C0166 /* MyAppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAppDelegate.swift; sourceTree = "<group>"; };
 		CEBDFDE02CEDBBF5001F71A3 /* Portfolio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Portfolio.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		CEBDFDE32CEDBBF5001F71A3 /* PortfolioApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortfolioApp.swift; sourceTree = "<group>"; };
-		CEBDFDE52CEDBBF5001F71A3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CEBDFDE72CEDBBF7001F71A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		CEBDFDEA2CEDBBF7001F71A3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CEBDFDF02CEDBBF7001F71A3 /* PortfolioTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PortfolioTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEBDFDF42CEDBBF7001F71A3 /* PortfolioTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortfolioTests.swift; sourceTree = "<group>"; };
 		CEBDFDFA2CEDBBF7001F71A3 /* PortfolioUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PortfolioUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEBDFDFE2CEDBBF7001F71A3 /* PortfolioUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortfolioUITests.swift; sourceTree = "<group>"; };
 		CEBDFE002CEDBBF7001F71A3 /* PortfolioUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortfolioUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CEE66E942CEEDD6400792FA3 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		CEE66E962CEEDE2000792FA3 /* RedirectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedirectApp.swift; sourceTree = "<group>"; };
+		CEE66E982CEEDE9B00792FA3 /* AppRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppRouter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +73,50 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CE3BCBD72CEDBD09009C0166 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		CE3BCBD82CEDBD18009C0166 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		CE3BCBD92CEDBD44009C0166 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				CEE66E932CEEDD5800792FA3 /* Home */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		CE3BCBDA2CEDBD53009C0166 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		CE3BCBDB2CEDBD64009C0166 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		CE3BCBDD2CEDBDC2009C0166 /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				CEE66E982CEEDE9B00792FA3 /* AppRouter.swift */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
 		CEBDFDD72CEDBBF5001F71A3 = {
 			isa = PBXGroup;
 			children = (
@@ -94,20 +140,17 @@
 		CEBDFDE22CEDBBF5001F71A3 /* Portfolio */ = {
 			isa = PBXGroup;
 			children = (
-				CEBDFDE32CEDBBF5001F71A3 /* PortfolioApp.swift */,
-				CEBDFDE52CEDBBF5001F71A3 /* ContentView.swift */,
+				CE3BCBDD2CEDBDC2009C0166 /* Repository */,
+				CE3BCBDB2CEDBD64009C0166 /* Utils */,
+				CE3BCBDA2CEDBD53009C0166 /* Services */,
+				CE3BCBD92CEDBD44009C0166 /* Screens */,
+				CE3BCBD82CEDBD18009C0166 /* Components */,
+				CE3BCBD72CEDBD09009C0166 /* Extensions */,
 				CEBDFDE72CEDBBF7001F71A3 /* Assets.xcassets */,
-				CEBDFDE92CEDBBF7001F71A3 /* Preview Content */,
+				CE3BCBDE2CEDBDD7009C0166 /* MyAppDelegate.swift */,
+				CEE66E962CEEDE2000792FA3 /* RedirectApp.swift */,
 			);
 			path = Portfolio;
-			sourceTree = "<group>";
-		};
-		CEBDFDE92CEDBBF7001F71A3 /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				CEBDFDEA2CEDBBF7001F71A3 /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 		CEBDFDF32CEDBBF7001F71A3 /* PortfolioTests */ = {
@@ -127,6 +170,14 @@
 			path = PortfolioUITests;
 			sourceTree = "<group>";
 		};
+		CEE66E932CEEDD5800792FA3 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				CEE66E942CEEDD6400792FA3 /* HomeView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -137,6 +188,7 @@
 				CEBDFDDC2CEDBBF5001F71A3 /* Sources */,
 				CEBDFDDD2CEDBBF5001F71A3 /* Frameworks */,
 				CEBDFDDE2CEDBBF5001F71A3 /* Resources */,
+				CEE66E9A2CEEE09800792FA3 /* Run Script */,
 			);
 			buildRules = (
 			);
@@ -195,6 +247,7 @@
 				TargetAttributes = {
 					CEBDFDDF2CEDBBF5001F71A3 = {
 						CreatedOnToolsVersion = 15.4;
+						LastSwiftMigration = 1540;
 					};
 					CEBDFDEF2CEDBBF7001F71A3 = {
 						CreatedOnToolsVersion = 15.4;
@@ -231,7 +284,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CEBDFDEB2CEDBBF7001F71A3 /* Preview Assets.xcassets in Resources */,
 				CEBDFDE82CEDBBF7001F71A3 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -252,13 +304,36 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		CEE66E9A2CEEE09800792FA3 /* Run Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Run Script";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\nif which swiftlint >/dev/null; then\n  swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		CEBDFDDC2CEDBBF5001F71A3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CEBDFDE62CEDBBF5001F71A3 /* ContentView.swift in Sources */,
-				CEBDFDE42CEDBBF5001F71A3 /* PortfolioApp.swift in Sources */,
+				CEE66E992CEEDE9B00792FA3 /* AppRouter.swift in Sources */,
+				CEE66E972CEEDE2000792FA3 /* RedirectApp.swift in Sources */,
+				CE3BCBDF2CEDBDD7009C0166 /* MyAppDelegate.swift in Sources */,
+				CEE66E952CEEDD6400792FA3 /* HomeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -419,16 +494,19 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Portfolio/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -437,6 +515,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = fash.test.Portfolio;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -447,16 +526,19 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Portfolio/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
